@@ -1,0 +1,140 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?s1uy7i');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?s1uy7i#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?s1uy7i') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?s1uy7i') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?s1uy7i##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ands-beg {
+  &:before {
+    content: $icon-ands-beg; 
+  }
+}
+.icon-ands-delivery {
+  &:before {
+    content: $icon-ands-delivery; 
+  }
+}
+.icon-ands-message {
+  &:before {
+    content: $icon-ands-message; 
+  }
+}
+.icon-ands-tip {
+  &:before {
+    content: $icon-ands-tip; 
+  }
+}
+.icon-ands-vault {
+  &:before {
+    content: $icon-ands-vault; 
+  }
+}
+.icon-ands-close {
+  &:before {
+    content: $icon-ands-close; 
+  }
+}
+.icon-ands-delete {
+  &:before {
+    content: $icon-ands-delete; 
+  }
+}
+.icon-ands-down {
+  &:before {
+    content: $icon-ands-down; 
+  }
+}
+.icon-ands-exit {
+  &:before {
+    content: $icon-ands-exit; 
+  }
+}
+.icon-ands-expand {
+  &:before {
+    content: $icon-ands-expand; 
+  }
+}
+.icon-ands-left {
+  &:before {
+    content: $icon-ands-left; 
+  }
+}
+.icon-ands-menu {
+  &:before {
+    content: $icon-ands-menu; 
+  }
+}
+.icon-ands-minus {
+  &:before {
+    content: $icon-ands-minus; 
+  }
+}
+.icon-ands-plus {
+  &:before {
+    content: $icon-ands-plus; 
+  }
+}
+.icon-ands-pprogress {
+  &:before {
+    content: $icon-ands-pprogress; 
+  }
+}
+.icon-ands-progress {
+  &:before {
+    content: $icon-ands-progress; 
+  }
+}
+.icon-ands-right {
+  &:before {
+    content: $icon-ands-right; 
+  }
+}
+.icon-ands-search {
+  &:before {
+    content: $icon-ands-search; 
+  }
+}
+.icon-ands-up {
+  &:before {
+    content: $icon-ands-up; 
+  }
+}
+.icon-ands-akin-logo {
+  &:before {
+    content: $icon-ands-akin-logo; 
+  }
+}
+.icon-ands-amenu {
+  &:before {
+    content: $icon-ands-amenu; 
+  }
+}
+.icon-ands-legal {
+  &:before {
+    content: $icon-ands-legal; 
+  }
+}
+

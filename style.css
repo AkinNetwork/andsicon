@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'ands-icons';
+  src:  url('fonts/ands-icons.eot?s1uy7i');
+  src:  url('fonts/ands-icons.eot?s1uy7i#iefix') format('embedded-opentype'),
+    url('fonts/ands-icons.ttf?s1uy7i') format('truetype'),
+    url('fonts/ands-icons.woff?s1uy7i') format('woff'),
+    url('fonts/ands-icons.svg?s1uy7i#ands-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ands-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ands-beg:before {
+  content: "\e900";
+}
+.icon-ands-delivery:before {
+  content: "\e901";
+}
+.icon-ands-message:before {
+  content: "\e902";
+}
+.icon-ands-tip:before {
+  content: "\e903";
+}
+.icon-ands-vault:before {
+  content: "\e904";
+}
+.icon-ands-close:before {
+  content: "\e905";
+}
+.icon-ands-delete:before {
+  content: "\e906";
+}
+.icon-ands-down:before {
+  content: "\e907";
+}
+.icon-ands-exit:before {
+  content: "\e908";
+}
+.icon-ands-expand:before {
+  content: "\e909";
+}
+.icon-ands-left:before {
+  content: "\e90a";
+}
+.icon-ands-menu:before {
+  content: "\e90b";
+}
+.icon-ands-minus:before {
+  content: "\e90c";
+}
+.icon-ands-plus:before {
+  content: "\e90d";
+}
+.icon-ands-pprogress:before {
+  content: "\e90e";
+}
+.icon-ands-progress:before {
+  content: "\e90f";
+}
+.icon-ands-right:before {
+  content: "\e910";
+}
+.icon-ands-search:before {
+  content: "\e911";
+}
+.icon-ands-up:before {
+  content: "\e912";
+}
+.icon-ands-akin-logo:before {
+  content: "\e913";
+}
+.icon-ands-amenu:before {
+  content: "\e914";
+}
+.icon-ands-legal:before {
+  content: "\e915";
+}
